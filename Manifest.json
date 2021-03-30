@@ -1,0 +1,6 @@
+{
+    "File": "./Configurations/Insider.json",
+    
+    "Auth": "UserPassword",
+    "Auth-Options": ["Windows","NavUserPassword","UserPassword","AAD"]
+}
