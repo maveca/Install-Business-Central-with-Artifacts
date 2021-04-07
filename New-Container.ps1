@@ -34,3 +34,5 @@ New-BCContainer `
 . (Join-Path $PSScriptRoot "Install\Install-Certificate.ps1")
 
 Start-Process "https://$containerName/BC/?tenant=default&signInRedirected=1"
+
+$credential = get-credential -UserName $env:USERNAME -Message “Using Windows Authentication. Please enter your Windows credentials.”
