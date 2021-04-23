@@ -28,6 +28,8 @@ New-BCContainer `
     -assignPremiumPlan:$assignPremiumPlan `
     -updateHosts `
     -accept_outdated `
+    -includeAL `
+    -memoryLimit 10G `
     -isolation hyperv `
     -shortcuts 'None'
 
