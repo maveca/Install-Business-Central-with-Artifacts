@@ -6,7 +6,7 @@ $containerName = Get-ContainerName
 
 Invoke-ScriptInBcContainer -containerName $containerName -scriptblock {
   
-    Set-NAVServerConfiguration -ServerInstance "BC" -KeyName "ClientServicesReconnectPeriod" -KeyValue "01:00:00"
+    Set-NAVServerConfiguration -ServerInstance "BC" -KeyName "SessionTimeout" -KeyValue "01:00:00"
 
     Stop-NAVServerInstance -ServerInstance "BC"
 
