@@ -1,0 +1,22 @@
+{
+    "ContainerName": "BCOnPrem",
+    "Type": "OnPrem",
+    "Type-Options": ["OnPrem", "Sandbox"],
+
+    "Auth": "UserPassword",
+    "Auth-Options": ["Windows","NavUserPassword","UserPassword","AAD"],
+
+    "Version": "",
+    "Version-Example": ["", "2016", "2017", "16", "16.4.14693"],
+
+    "Country": "ru",
+    "Country-Example": ["base", "w1", "us", "gb"],
+    
+    "Select": "Latest",
+    "Select-Options": ["Latest", "All", "Closest", "SecondToLastMajor"],
+
+    "Artifacts": [
+        "https://adacta-erp.azurewebsites.net/r/bcreleases?path=adloc%2F17%2F17.0.16993.2020111104%2FApp%2FAdacta%2520d.o.o._Adacta%2520Administration_17.0.16993.2020111104.app",
+        "https://adacta-erp.azurewebsites.net/r/bcreleases?path=adloc%2F17%2F17.0.16993.2020111104%2FApp%2FAdacta%2520d.o.o._Croatian%2C%2520Serbian%2520and%2520Slovenian%2520Localization_17.0.16993.2020111104.app"
+    ]
+}

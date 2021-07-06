@@ -2,7 +2,7 @@
 # Expected server instance name is BC.
 
 Set-Location (get-item $MyInvocation.MyCommand.Path).Directory.Parent.FullName
-Import-Module .\Install\Load-Configuration.psm1 -Force
+Import-Module .\Install\Read-Configuration.psm1 -Force
 $containerName = Get-ContainerName
 
 $confKey = Read-Host -Prompt "Input the configuration key name"

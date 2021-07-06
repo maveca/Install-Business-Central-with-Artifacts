@@ -16,3 +16,9 @@ those parameters.
 Under `Database` folder you will find two scripts `Backup-Database.ps1` for backing up
 and `Restore-Database.ps1` for restoring the database. With this ability you can easily
 change the underlying service and keeping the same database.
+
+## Useful links
+
+Please read also:
+- [Github - script for New-NavContainer](https://github.com/microsoft/navcontainerhelper/blob/master/ContainerHandling/New-NavContainer.ps1)
+- [Freddys blog - Troubleshooting Business Central on Docker](https://freddysblog.com/2020/10/12/troubleshooting-business-central-on-docker/)

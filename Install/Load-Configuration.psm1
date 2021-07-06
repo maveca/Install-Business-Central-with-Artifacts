@@ -9,8 +9,8 @@ function Get-Authentication {
     }
 }
 function Invoke-Credential {
-    if ($null -ne $config.UserName) {
-        return New-Object pscredential $base.UserName, (ConvertTo-SecureString -AsPlainText -Force -String $base.Password) 
+    if ($null -ne $base.UserName) {
+        return New-Object pscredential $base.UserName, (ConvertTo-SecureString -AsPlainText -Force -String $base.Password)
     } else {
         return Get-Credential -Message "Using $($base.Auth) authentication. Please enter your $($base.Auth) credentials for the host computer."
     }
@@ -33,7 +33,7 @@ function Get-ArtifactUrl {
     {
         return Get-BCArtifactUrl -type $config.Type -country $config.Country -select $config.Select -storageAccount $config.StorageAccount -sasToken $config.SASToken
     }
-    else 
+    else
     {
         return Get-BCArtifactUrl -type $config.Type -country $config.Country -select $config.Select
     }
