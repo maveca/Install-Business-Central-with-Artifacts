@@ -25,7 +25,9 @@ function Read-Configuration {
         [Switch]$resolveArtifact
     )
 
-    Import-Module (Join-Path (Get-CurrentDirectory) "./Install/Read-Json.psm1") -Force
+    Write-Host (Get-CurrentDirectory)
+
+    Import-Module (Join-Path (Get-CurrentDirectory) "Install/Read-Json.psm1") -Force
 
     if ($null -eq $config)
     {

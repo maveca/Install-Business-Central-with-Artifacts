@@ -5,12 +5,14 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     exit
 }
 
+# Make sure you are in the same direcotry when running in Administrator mode.
+$newPath = $MyInvocation.MyCommand.Path | Split-Path | Split-Path
+Set-Location $newPath
+
 try {
     # Now running elevated so launch the script:
-    Set-Location (Split-Path (get-item $PSScriptRoot) -Parent);
-    Import-Module "./Install/Read-Configuration.psm1" -Force
-    $containerName = Get-ContainerName
-
+    # Import-Module "./Install/Read-Configuration.psm1" -Force -> this is wrongly identified!
+    $containerName = 'insider'
     $certUrl = "http://$($containerName):8080/certificate.cer"
     $tmp = New-TemporaryFile
     $certFile = $tmp.FullName + "cert.cer"
