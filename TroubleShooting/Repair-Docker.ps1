@@ -14,6 +14,13 @@ foreach ($p in $process){
     Stop-Process -Id $p.Id -Force
 }
 
+Second force stop Hyper-V
+$process = Get-Process -Name "vm*"
+foreach ($p in $process){
+    Stop-Process -Id $p.Id -Force
+}
+
+
 # Then stop the service itself
 $services = Get-Service -Name "*Docker*"
 foreach ($s in $services){
@@ -24,3 +31,5 @@ foreach ($s in $services){
 
 Write-Host "Starting docker desktop..."
 Start-Process "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+
+Check-BcContainerHelperPermissions -Fix

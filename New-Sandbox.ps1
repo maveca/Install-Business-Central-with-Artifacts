@@ -6,9 +6,9 @@ $containerConfig = @{
     #installCertificateOnHost = $true;
     includeAL = $true;
     shortcuts = "None";
-    credential = (Get-Credential -credential $env:USERNAME);
-    artifactUrl = (Get-BCArtifactUrl -type "Sandbox" -country "base" -select "Latest");
-    licenseFile = (Get-LicenseFile)
+    # credential = (Get-Credential -credential $env:USERNAME);
+    # artifactUrl = (Get-BCArtifactUrl -type "Sandbox" -country "base" -select "Latest");
+    # licenseFile = (Get-LicenseFile)
 }
 
 # https://github.com/microsoft/navcontainerhelper/blob/master/ContainerHandling/New-NavContainer.ps1

@@ -1,5 +1,4 @@
-﻿$config = $null;
-function Get-CurrentDirectory {
+﻿function Get-CurrentDirectory {
     if ($psISE) {
         $CurrentDirectory = Split-Path -Path $psISE.CurrentFile.FullPath
     }
@@ -52,5 +51,3 @@ function Get-Configuration {
 function Get-ContainerName {
     return $config.ContainerName
 }
-
-$config = Read-Configuration

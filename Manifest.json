@@ -5,5 +5,5 @@
     "Auth-Options": ["Windows", "NavUserPassword", "UserPassword", "AAD"],
 
     "UserName": "admin",
-    "Password": "admin"
+    "Password": "Pa$$w0rd!"
 }
