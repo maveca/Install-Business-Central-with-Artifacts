@@ -19,6 +19,7 @@
     "LicenseFile": "./Licenses/License.flf",
 
     "StorageAccount": "bcinsider",
-    "OldSASToken": "?sv=2019-12-12&ss=b&srt=sco&st=2020-09-15T00%3A00%3A00Z&se=2021-04-01T00%3A00%3A00Z&sp=rl&spr=https&sig=9PznJJRE47DoKjlG44Av6ZKtG4MRfh3N6gyFT7RNWSQ%3D",
-    "SASToken": "?sv=2019-02-02&sig=IN9bl0THH1U5idOF612IGG7jQaMAOznBjFlqyUHuysQ%3D&spr=https&st=2021-03-15T00%3A00%3A00Z&se=2021-10-01T00%3A00%3A00Z&srt=sco&ss=b&sp=rl"
+    "OldSASToken": "?sv=2019-02-02&sig=IN9bl0THH1U5idOF612IGG7jQaMAOznBjFlqyUHuysQ%3D&spr=https&st=2021-03-15T00%3A00%3A00Z&se=2021-10-01T00%3A00%3A00Z&srt=sco&ss=b&sp=rl",
+    "SASToken": "?sv=2019-07-07&sig=Z4aOlpmCfLvCDd%2BGDmMCqGWJZtZl40PY0ADUoWHWHEo%3D&spr=https&st=2021-09-15T00%3A00%3A00Z&se=2022-04-01T00%3A00%3A00Z&srt=sco&ss=b&sp=rl"
+
 }

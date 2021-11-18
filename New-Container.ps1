@@ -13,3 +13,5 @@ $config = (./Install/Read-Configuration.ps1 -resolveCredential -resolveArtifact)
 ./Install/Write-LaunchJSon.ps1 | Out-File -FilePath ./launch.json -Encoding utf8
 Write-Host "Application Version: $(Get-NavContainerNavVersion -containerOrImageName $config.ContainerName)" -ForegroundColor Green
 Write-Host "Platform Version   : $(Get-NavContainerPlatformVersion -containerOrImageName $config.ContainerName)" -ForegroundColor Green
+
+Start-Sleep -Seconds 5
