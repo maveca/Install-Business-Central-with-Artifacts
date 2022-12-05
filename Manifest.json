@@ -1,9 +1,12 @@
 {
     "ConfigurationFile": "./Configurations/Insider.json",
-
     "Auth": "Windows",
-    "Auth-Options": ["Windows", "NavUserPassword", "UserPassword", "AAD"],
-
+    "Auth-Options": [
+        "Windows",
+        "NavUserPassword",
+        "UserPassword",
+        "AAD"
+    ],
     "UserName": "admin",
     "Password": "Pa$$w0rd!"
 }

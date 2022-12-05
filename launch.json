@@ -1,20 +1,19 @@
 ﻿{
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "My Docker Container",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "Sandbox",
-            "server": "https://Insider/BC/",
-            "port": 7049,
-            "serverInstance": "BC",
-            "authentication": "Windows",
-            "breakOnError": true,
-            "launchBrowser": false,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "tenant": "default"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "My Docker Container",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "",
+      "server": "",
+      "serverInstance": "",
+      "authentication": "",
+      "breakOnError": true,
+      "launchBrowser": false,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "tenant": "default"
+    }
+  ]
 }
