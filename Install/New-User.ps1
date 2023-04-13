@@ -1,13 +1,4 @@
-﻿$container = "<Container Name>"
-$user = "<Users>"
-$pass = "<Password>"
+﻿$container = "bcserver"
+$credential = (Get-Credential)
 
-Invoke-ScriptInBcContainer -containerName $container -scriptblock {
-    try {
-        New-NAVServerUser BC -tenant default -UserName $user -Password (ConvertTo-SecureString $pass -AsPlainText -Force)
-        Write-Host "User {$user} has been created." -ForegroundColor Green
-    }
-    catch {
-        Write-Host "User has not been created." -ForegroundColor Red
-    }
-}
+New-BcContainerBcUser -containerName $container -credential $credential -fullName $credential.UserName

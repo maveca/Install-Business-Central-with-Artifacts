@@ -34,8 +34,8 @@
         "Closest",
         "SecondToLastMajor"
     ],
-    "LicenseFile": "./Licenses/License.flf",
+    "LicenseFile": "./Licenses/License.bclicense",
     "StorageAccount": "bcinsider",
-    "OldSASToken": "?sv=2019-07-07&sig=Z4aOlpmCfLvCDd%2BGDmMCqGWJZtZl40PY0ADUoWHWHEo%3D&spr=https&st=2021-09-15T00%3A00%3A00Z&se=2022-04-01T00%3A00%3A00Z&srt=sco&ss=b&sp=rl",
-    "SASToken": "?sv=2021-06-08&ss=b&srt=sco&spr=https&st=2022-09-15T00%3A00%3A00Z&se=2023-04-01T00%3A00%3A00Z&sp=rl&sig=rBQiC8y0zbuWC66i2BJcVhydR3XD2aaz47aJ6q6zEss%3D"
+    "OldSASToken": "?sv=2021-06-08&ss=b&srt=sco&spr=https&st=2022-09-15T00%3A00%3A00Z&se=2023-04-01T00%3A00%3A00Z&sp=rl&sig=rBQiC8y0zbuWC66i2BJcVhydR3XD2aaz47aJ6q6zEss%3D",
+    "SASToken": "?sv=2021-10-04&ss=b&srt=sco&st=2023-03-15T00%3A00%3A00Z&se=2023-10-01T00%3A00%3A00Z&sp=rl&sig=1oFLO%2Fq%2BKsry%2BA4dKEog9R6MOxpv8Zu4h9AdGiOeTHs%3D"
 }
